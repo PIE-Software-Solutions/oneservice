@@ -26,10 +26,5 @@ public class AppConstants {
 
 	// DB Error constants
 	public static final String ERROR_CODE_NOT_PRESENT_IN_DB = "Error code not present in DB";
-	
-	// JSON SEQCURITY constants
-	public static final String APP_SEC_REQ = "$appsecreq$";
-	public static final String APP_JSON_VAL_REQ = "$appjsonvalreq$";
-	public static final String APP_PC_REQ = "$loadcheck$";
 
 }
