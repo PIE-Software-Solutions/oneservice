@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "",
+  "type": "object",
+  "minProperties": 0,
+  "maxProperties": 0,
+  "properties": {
+  },
+  "required": [
+  ]
+}
