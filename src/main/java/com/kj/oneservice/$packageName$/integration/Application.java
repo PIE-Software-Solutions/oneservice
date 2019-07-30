@@ -1,9 +1,7 @@
 package com.kj.oneservice.$packageName$.integration;
 
 import static com.kj.oneservice.$packageName$.integration.util.AppConstants.APP_ALLOWED_SERVICE_PATHS;
-import static com.kj.oneservice.$packageName$.integration.util.AppConstants.APP_JSON_VAL_REQ;
 import static com.kj.oneservice.$packageName$.integration.util.AppConstants.APP_PID_FILE_WRITER_NAME;
-import static com.kj.oneservice.$packageName$.integration.util.AppConstants.APP_SEC_REQ;
 import static com.kj.oneservice.$packageName$.integration.util.AppConstants.APP_SERVICE_ENABLED_COLUMN;
 import static com.kj.oneservice.$packageName$.integration.util.AppConstants.APP_SERVICE_NAME;
 import static com.kj.oneservice.$packageName$.integration.util.AppConstants.APP_SERVICE_PWD_COLUMN;
@@ -13,7 +11,6 @@ import static com.kj.oneservice.$packageName$.integration.util.AppConstants.APP_
 import static com.kj.oneservice.$packageName$.integration.util.AppConstants.APP_SERVICE_USER_COLUMN;
 import static com.kj.oneservice.$packageName$.integration.util.AppConstants.APP_USER_ROLE_TABLE;
 import static com.kj.oneservice.$packageName$.integration.util.AppConstants.APP_USER_TABLE;
-import static com.kj.oneservice.$packageName$.integration.util.AppConstants.APP_PC_REQ;
 import static com.kj.oneservice.common.integration.util.CommonConstants.ALLOWED_SERVICE_PATHS;
 import static com.kj.oneservice.common.integration.util.CommonConstants.COMMON_PACKAGE_STRUCTURE;
 import static com.kj.oneservice.common.integration.util.CommonConstants.COMMON_SERVICE_ENABLED;
@@ -25,9 +22,6 @@ import static com.kj.oneservice.common.integration.util.CommonConstants.COMMON_S
 import static com.kj.oneservice.common.integration.util.CommonConstants.COMMON_USER_ROLE_TABLE;
 import static com.kj.oneservice.common.integration.util.CommonConstants.COMMON_USER_TABLE;
 import static com.kj.oneservice.common.integration.util.CommonConstants.SERVICE_NAME;
-import static com.kj.oneservice.common.integration.util.CommonConstants.SEC_REQ;
-import static com.kj.oneservice.common.integration.util.CommonConstants.JSON_VAL_REQ;
-import static com.kj.oneservice.common.integration.util.CommonConstants.PC_REQ;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -65,9 +59,6 @@ public class Application {
 		COMMON_SERVICE_ENABLED = APP_SERVICE_ENABLED_COLUMN;
 		COMMON_SERVICE_ROLE = APP_SERVICE_ROLE_COLUMN;
 		COMMON_SERVICE_SERVICE = APP_SERVICE_SERVICE_COLUMN;
-		SEC_REQ = APP_SEC_REQ;
-		JSON_VAL_REQ = APP_JSON_VAL_REQ;
-		PC_REQ = APP_PC_REQ;
 	}
 
 	/**
