@@ -6,9 +6,8 @@ import static com.pss.oneservice.common.integration.util.CommonConstants.EXCEPTI
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.pss.oneservice.$packageName$.integration.model.$serviceNamecc$Request;
 import com.pss.oneservice.$packageName$.integration.model.$serviceNamecc$Response;
@@ -40,7 +39,7 @@ public class $serviceNamecc$Controller extends OneServiceController {
 	 * @param $serviceName$Request
 	 * @return ServiceResponse
 	 */
-	@RequestMapping(value = "/$serviceName$", method = RequestMethod.POST)
+	@PostMapping(path = "/$serviceName$")
 	@ApiOperation(value = "$serviceNamecc$", response = $serviceNamecc$Response.class)
 	public ServiceResponse get(
 			@ApiParam(value = "$serviceNamecc$ Request", required = true) @RequestBody $serviceNamecc$Request $serviceName$Request) {

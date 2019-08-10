@@ -5,9 +5,9 @@ import static com.pss.oneservice.common.integration.util.CommonConstants.BAD_REQ
 import static com.pss.oneservice.common.integration.util.CommonConstants.INTERNAL_EXCEPTION_RESPONSE;
 import static com.pss.oneservice.common.integration.util.CommonConstants.INTERNAL_EXEPTION_CODE;
 
-import org.springframework.http.MediaType;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.pss.oneservice.common.integration.annotations.SetJsonMapping;
 
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
@@ -20,7 +20,7 @@ import io.swagger.annotations.ApiResponses;
  * @author KARUNAR
  */
 @RestController
-@RequestMapping(value = "/$servicepath$", consumes = MediaType.APPLICATION_JSON_UTF8_VALUE, produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+@SetJsonMapping(path = "/$servicepath$")
 @ApiResponses(value = { @ApiResponse(code = INTERNAL_EXEPTION_CODE, message = INTERNAL_EXCEPTION_RESPONSE),
 		@ApiResponse(code = BAD_REQUEST_CODE, message = BAD_REQUEST_RESPONSE) })
 public abstract class OneServiceController {
