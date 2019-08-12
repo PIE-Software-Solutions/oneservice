@@ -20,7 +20,7 @@ import io.swagger.annotations.ApiResponses;
  * @author KARUNAR
  */
 @RestController
-@SetJsonMapping(path = "/$servicepath$")
+@SetJsonMapping(path = "/$servicePath$")
 @ApiResponses(value = { @ApiResponse(code = INTERNAL_EXEPTION_CODE, message = INTERNAL_EXCEPTION_RESPONSE),
 		@ApiResponse(code = BAD_REQUEST_CODE, message = BAD_REQUEST_RESPONSE) })
 public abstract class OneServiceController {
