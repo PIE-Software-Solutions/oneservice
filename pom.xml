@@ -6,7 +6,7 @@
     <version>2.1.6.RELEASE</version>
   </parent>
   <groupId>com.pss.oneservice.$packageName$</groupId>
-  <artifactId>$servicepath$</artifactId>
+  <artifactId>$servicePath$</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
   <properties>
