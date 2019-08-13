@@ -21,7 +21,7 @@ import com.pss.oneservice.$packageName$.integration.dao.model.DBError;
  */
 public abstract class OneServiceDAO {
 
-	@Autowired
+	@Autowired(required=false)
 	@Qualifier(ONESERVICE_JDBC_TEMPLATE)
 	protected JdbcTemplate oneServiceJdbcTemplate;
 
