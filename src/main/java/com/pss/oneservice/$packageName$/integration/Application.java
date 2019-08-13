@@ -66,14 +66,4 @@ public class Application {
 		springApplication.run(args);
 	}
 
-	/**
-	 * Filter to validate the input request against JSON schema
-	 * 
-	 * @return
-	 */
-	@Bean
-	FilterRegistrationBean filter() {
-			return new FilterRegistrationBean(new AppFilter());
-	}
-
 }
