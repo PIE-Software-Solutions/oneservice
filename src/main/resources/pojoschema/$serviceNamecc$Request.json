@@ -2,8 +2,8 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "",
   "type": "object",
-  "extendsJavaClass" : "com.kj.oneservice.common.integration.model.ServiceRequest",
-  "javaJsonView": "com.kj.oneservice.common.integration.model.ServiceRequest",
+  "extendsJavaClass" : "com.pss.oneservice.common.integration.model.ServiceRequest",
+  "javaJsonView": "com.pss.oneservice.common.integration.model.ServiceRequest",
   "minProperties": 0,
   "maxProperties": 0,
   "properties": {
