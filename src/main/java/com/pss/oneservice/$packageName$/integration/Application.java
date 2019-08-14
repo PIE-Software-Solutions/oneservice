@@ -26,20 +26,11 @@ import static com.pss.oneservice.common.integration.util.CommonConstants.COMMON_
 import static com.pss.oneservice.common.integration.util.CommonConstants.SERVICE_NAME;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.ApplicationPidFileWriter;
-import org.springframework.boot.web.servlet.FilterRegistrationBean;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
 
 import com.pss.oneservice.common.integration.config.AppFilter;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
-@EnableEurekaClient
-@Configuration
-@ComponentScan(basePackages = { COMMON_PACKAGE_STRUCTURE })
-@SpringBootApplication
+@OneServiceInjector
 public class Application {
 	
 	static {
