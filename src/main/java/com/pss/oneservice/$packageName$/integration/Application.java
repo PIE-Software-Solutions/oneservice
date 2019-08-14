@@ -25,6 +25,8 @@ import static com.pss.oneservice.common.integration.util.CommonConstants.COMMON_
 import static com.pss.oneservice.common.integration.util.CommonConstants.COMMON_USER_TABLE;
 import static com.pss.oneservice.common.integration.util.CommonConstants.SERVICE_NAME;
 
+import com.pss.oneservice.common.integration.annotations.OneServiceInjector;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.context.ApplicationPidFileWriter;
 
