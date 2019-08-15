@@ -26,7 +26,7 @@ import com.pss.oneservice.$packageName$.integration.Application;
 public class ApplicationTest {
 
 	// Success scenarios
-	@Test
+	/*@Test
 	public void testApplicationFilter() {
 		Application application = new Application();
 		FilterRegistrationBean filterRegistrationBean = application.filter();
@@ -37,5 +37,5 @@ public class ApplicationTest {
 	@Test(expected = IllegalArgumentException.class)
 	public void testApplication() {
 		Application.main(new String[] {});
-	}
+	}*/
 }
